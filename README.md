@@ -34,7 +34,7 @@ cd inputcount-backend
 ### 🌐 Passo 2: Executar o Servidor
 Para iniciar o servidor em modo de desenvolvimento, utilize o comando:
 ```bash
-npm run dev
+yarn && yarn run dev
 ```
 
 ## 🔗 Repositórios Relacionados
