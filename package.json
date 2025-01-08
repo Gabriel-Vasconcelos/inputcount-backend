@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
+  },
+  "name": "inputcount-backend",
+  "version": "1.0.0",
+  "description": "O **InputCount** é um sistema web simples que permite aos usuários enviar valores a um servidor e visualizar o número de vezes que cada valor foi enviado. Este repositório contém o código referente ao **backend** do projeto, desenvolvido em **Node.js** e utilizando o **Express** como framework para gerenciamento de requisições HTTP.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
