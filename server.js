@@ -1,10 +1,12 @@
 const express = require("express");
 const axios = require("axios");
 const bodyParser = require("body-parser");
+const cors = require("cors");
 
 const app = express();
-const port = 3000;
+const port = 3002;
 
+app.use(cors());
 app.use(bodyParser.json());
 
 // JSON Server URL
@@ -13,8 +15,10 @@ const jsonServerUrl = "http://localhost:3001/numbers";
 // Rota POST para atualizar o count de um número
 app.post("/count", async (request, response) => {
   const { number } = request.body;
+  console.log("request.body ", request.body)
+  console.log("number ", number)
 
-  if (typeof number !== "number") {
+  if (!number) {
     return response.status(400).json({ error: "O número enviado deve ser um número válido!" });
   }
 

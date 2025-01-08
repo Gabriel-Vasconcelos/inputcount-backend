@@ -1,3 +1,9 @@
 {
-  "numbers": []
+  "numbers": [
+    {
+      "id": "c24f",
+      "number": 3,
+      "count": 2
+    }
+  ]
 }
