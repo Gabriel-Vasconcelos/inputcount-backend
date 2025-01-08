@@ -13,8 +13,6 @@ O projeto InputCount é dividido em duas partes principais:
 ## 🎥 Vídeo do Projeto
 https://github.com/user-attachments/assets/7981a1a8-02d2-404c-b927-41f7c438a992
 
-
-
 ## 📚 Tecnologias Utilizadas
 - Node.js
 - Express
@@ -40,7 +38,13 @@ cd inputcount-backend
 ### 🌐 Passo 2: Executar o Servidor
 Para iniciar o servidor em modo de desenvolvimento, utilize o comando:
 ```bash
-yarn && yarn run dev
+yarn && yarn run start
+```
+
+### Passo 3: Executar o Banco
+Para iniciar o Banco de Dados (JSON Server) em modo de desenvolvimento, utilize o comando:
+```bash
+json-server --watch db.json --port 3001
 ```
 
 ## 🔗 Repositórios Relacionados
