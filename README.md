@@ -10,12 +10,18 @@ O projeto InputCount é dividido em duas partes principais:
 > ⚠️ Nota: Este repositório contém apenas o código do backend. O código do frontend está disponível em um repositório separado:
 > 🔗 [InputCount Frontend](https://github.com/Gabriel-Vasconcelos/inputcount-frontend)
 
+## 🎥 Vídeo do Projeto
+https://github.com/user-attachments/assets/7981a1a8-02d2-404c-b927-41f7c438a992
+
+
+
 ## 📚 Tecnologias Utilizadas
 - Node.js
 - Express
 - CORS (Cross-Origin Resource Sharing)
-- Nodemon (para facilitar o desenvolvimento)
+- Axios
 - body-parser (para processar dados recebidos no formato JSON)
+- JSON Server (para ser o nosso banco de dados)
 
 ## 🚀 Funcionalidades do Backend
 - Receber valores enviados pelo frontend via requisição HTTP POST
